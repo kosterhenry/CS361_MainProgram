@@ -7,7 +7,8 @@ A. You can request news articles for a user by sending a json file containing th
     example call: favorite_stocks = ["vti", "nvda", "goog", "cost"]
                   socket.send_json(favorite_stocks)
 
-B. When the Microservice is finsihed running it will have created a new json file that it will return:
+B. When the Microservice is finished running it will have created a new json file containing 5 most recent news articles on each favorited stock
+    the articles will each contain the info (title, url, source, date):
     example call: news_list = socket.recv_json()
 
 ![image alt](https://raw.githubusercontent.com/kosterhenry/CS361_MainProgram/main/UML_MicroserviceA.png)
