@@ -1,4 +1,4 @@
-# CS361_MainProgram
+# CS361_MicroserviceA
 Repository  for my Microservice A for CS361
 
 Communication contract: We will use zmq for communication. 
