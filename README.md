@@ -10,7 +10,7 @@ A. You can request news articles for a user by sending a json file containing th
 B. When the Microservice is finsihed running it will have created a new json file that it will return:
     example call: news_list = socket.recv_json()
 
-    (/UML_MicroserviceA.png)
+    (docs/UML_MicroserviceA.png)
     
                   
     
